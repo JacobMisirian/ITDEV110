@@ -14,7 +14,7 @@ namespace Assignment1A
 			Console.WriteLine("Jacob Misirian");
 			Console.WriteLine("ITDEV 110");
 			Console.WriteLine("Bob Menzl");
-			Console.WriteLine(DateTime.Now);
+			Console.WriteLine(DateTime.Today.ToString("d"));
 		}
 	}
 }
