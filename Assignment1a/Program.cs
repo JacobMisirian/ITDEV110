@@ -11,11 +11,11 @@ namespace Assignment1A
 
 		public static void DisplayInfo()
 		{
-			Console.WriteLine("Jacob Misirian");
-			Console.WriteLine("ITDEV 110");
-			Console.WriteLine("Bob Menzl");
-			Console.WriteLine("Assignment 1a");
-			Console.WriteLine(DateTime.Today.ToString("d"));
+			Console.WriteLine("Name:\tJacob Misirian");
+			Console.WriteLine("Class:\tITDEV 110");
+			Console.WriteLine("Teacher:\tBob Menzl");
+			Console.WriteLine("Assignment:\tAssignment 1a");
+			Console.WriteLine("Date:\t" + DateTime.Today.ToString("d"));
 		}
 	}
 }
