@@ -1,0 +1,5 @@
+C:\Users\misiriaj\ITDEV110\FtoC\FtoC\bin\Debug\FtoC.exe.config
+C:\Users\misiriaj\ITDEV110\FtoC\FtoC\bin\Debug\FtoC.exe
+C:\Users\misiriaj\ITDEV110\FtoC\FtoC\bin\Debug\FtoC.pdb
+C:\Users\misiriaj\ITDEV110\FtoC\FtoC\obj\Debug\FtoC.exe
+C:\Users\misiriaj\ITDEV110\FtoC\FtoC\obj\Debug\FtoC.pdb
