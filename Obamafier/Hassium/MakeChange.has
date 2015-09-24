@@ -13,6 +13,6 @@ func makeChange(money) {
 	println("Dimes: " + Math.floor(money / 0.10));
 	money = money % 0.10;
 	println("Nickles: " + Math.floor(money / 0.5));
-	money = money % .5;
-	println("Pennies: " + Math.floor(money / .01));
+	money = money % 0.5;
+	println("Pennies: " + Math.floor(money / 0.01));
 }
