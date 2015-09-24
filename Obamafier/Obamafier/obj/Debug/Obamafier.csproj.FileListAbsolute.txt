@@ -1,0 +1,6 @@
+C:\Users\misiriaj\ITDEV110\Obamafier\Obamafier\bin\Debug\Obamafier.exe.config
+C:\Users\misiriaj\ITDEV110\Obamafier\Obamafier\bin\Debug\Obamafier.exe
+C:\Users\misiriaj\ITDEV110\Obamafier\Obamafier\bin\Debug\Obamafier.pdb
+C:\Users\misiriaj\ITDEV110\Obamafier\Obamafier\obj\Debug\Obamafier.csprojResolveAssemblyReference.cache
+C:\Users\misiriaj\ITDEV110\Obamafier\Obamafier\obj\Debug\Obamafier.exe
+C:\Users\misiriaj\ITDEV110\Obamafier\Obamafier\obj\Debug\Obamafier.pdb
