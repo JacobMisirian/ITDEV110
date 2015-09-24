@@ -1,0 +1,18 @@
+use Math;
+
+func main () {
+	print("Enter money to convert: ");
+	makeChange(input());
+	input();
+}
+
+func makeChange(money) {
+	money = Convert.toNumber(money);
+	println("Quarters: " + Math.floor(money / 0.25));
+	money = money % 0.25;
+	println("Dimes: " + Math.floor(money / 0.10));
+	money = money % 0.10;
+	println("Nickles: " + Math.floor(money / 0.5));
+	money = money % .5;
+	println("Pennies: " + Math.floor(money / .01));
+}
