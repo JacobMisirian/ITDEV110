@@ -1,0 +1,52 @@
+use "Info.has";
+
+func main () {
+	info = new Info("Assignment 3");
+	info.displayInfo();
+
+	println(add([3, 2]));
+	println(subtract([6, 4, 1]));
+	println(multiply([4, 5, 2, 3]));
+	println(divide([30, 2, 5]));
+	println(modulus([40, 3]));
+}
+
+func add (nums) {
+	total = nums[0];
+	for (x = 1; x < nums.length; x++)
+		total += nums[x];
+	
+	return total;
+}
+
+func subtract (nums) {
+	total = nums[1];
+	for (x = 1; x < nums.length; x++)
+		total -= nums[x];
+	
+	return total;
+}
+
+func multiply (nums) {
+	total = nums[1];
+	for (x = 1; x < nums.length; x++)
+		total *= nums[x];
+	
+	return total;
+}
+
+func divide (nums) {
+	total = nums[1];
+	for (x = 1; x < nums.length; x++)
+		total /= nums[x];
+
+	return total;
+}
+
+func modulus (nums) {
+	total = nums[1];
+	for (x = 1; x < nums.length; x++)
+		total = total % nums[x];
+	
+	return total;
+}

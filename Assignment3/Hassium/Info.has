@@ -1,0 +1,13 @@
+class Info {
+	func new (assignmentName) {
+		this.Name = assignmentName;
+	}
+
+	func displayInfo(this) {
+		println("Name:\tJacob Misirian");
+		println("Class:\tITDEV 110");
+		println("Teacher:\tBob Menzl");
+		println("Assignment:\t" + this.Name);
+		println("Date:\t" + date());
+	}
+}
