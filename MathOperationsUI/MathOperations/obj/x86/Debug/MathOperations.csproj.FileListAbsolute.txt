@@ -1,0 +1,4 @@
+c:\users\jacob.misirian\documents\visual studio 2010\Projects\MathOperations\MathOperations\bin\Debug\MathOperations.exe
+c:\users\jacob.misirian\documents\visual studio 2010\Projects\MathOperations\MathOperations\bin\Debug\MathOperations.pdb
+c:\users\jacob.misirian\documents\visual studio 2010\Projects\MathOperations\MathOperations\obj\x86\Debug\MathOperations.exe
+c:\users\jacob.misirian\documents\visual studio 2010\Projects\MathOperations\MathOperations\obj\x86\Debug\MathOperations.pdb
