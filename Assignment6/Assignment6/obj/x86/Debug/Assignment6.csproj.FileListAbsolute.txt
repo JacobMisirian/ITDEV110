@@ -1,0 +1,4 @@
+c:\users\jacob.misirian\documents\visual studio 2010\Projects\Assignment6\Assignment6\bin\Debug\Assignment6.exe
+c:\users\jacob.misirian\documents\visual studio 2010\Projects\Assignment6\Assignment6\bin\Debug\Assignment6.pdb
+c:\users\jacob.misirian\documents\visual studio 2010\Projects\Assignment6\Assignment6\obj\x86\Debug\Assignment6.exe
+c:\users\jacob.misirian\documents\visual studio 2010\Projects\Assignment6\Assignment6\obj\x86\Debug\Assignment6.pdb
