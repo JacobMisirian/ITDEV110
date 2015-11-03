@@ -1,0 +1,65 @@
+use Math;
+
+func main () {
+	ui = new UserInterface();
+	operations = new MathOperations();
+	
+	switch (ui.displayMenu(["Area of Circle", "Area of rectangle", "Surface area of sylinder"])) {
+		case 0:
+			println("Area of circle is: " + operations.areaOfCircle(ui.getDoubleInput("Radius: ")));
+		case 1:
+			println("Area of rectangle is: " + operations.areaOfRectangle(ui.getDoubleInput("Length: "), ui.getDoubleInput("Width: ")));
+		case 2:
+			println("Surface area of cylinder is: " + operations.areaOfCylinder(ui.getDoubleInput("Radius: "), ui.getDoubleInput("Height: ")));
+	}
+}
+
+class UserInterface {
+	func new () {}
+	
+	func displayMenu(this, entries) {
+		for (x = 0; x < entries.length; x++)
+			println(x + ". " + entries[x]);
+		try {
+			choice = Convert.toInt(input());
+		} catch {
+			println("Input was not in the correct format!");
+			return displayMeny(entries);
+		}
+		
+		if (choice < 0 || choice > entries.length - 1) {
+			println("Enter a valid choice!");
+			pause();
+			exit(0);
+		}
+		
+		return choice;
+	}
+	
+	func getDoubleInput(this, prompt) {
+		print(prompt);
+		
+		try {
+			choice = Convert.toDouble(input());
+		} catch {
+			println("Enter a valid double!");
+			pause();
+			exit(0);
+		}
+		
+		return choice;
+	}
+}
+
+class MathOperations {
+	func new () {}
+	
+	func areaOfCircle(this, radius)
+		return Math.pi * (radius * radius);
+		
+	func areaOfRectangle(this, length, width)
+		return length * width;
+		
+	func areaOfCylinder(this, radius, height)
+		return 2 * Math.pi * radius * height + 2 * Math.pi * (radius * radius);
+}
