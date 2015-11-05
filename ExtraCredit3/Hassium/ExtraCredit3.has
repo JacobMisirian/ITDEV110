@@ -1,0 +1,19 @@
+random = new Random();
+
+func main () {
+	highest = -1;
+	lowest = -1;
+	oddCounter = 0;
+
+	foreach (x in range(0, 1000)) {
+		number = random.next(0, 100001);
+		if (number % 2 != 0)
+			oddCounter++;
+		if (lowest == -1 || lowest > number)
+			lowest = number;
+		if (highest < number)
+			highest = number;
+	}
+
+	println("Highest: " + highest + ". Lowest: " + lowest + ". Number of odd numbers: " + oddCounter);
+}
