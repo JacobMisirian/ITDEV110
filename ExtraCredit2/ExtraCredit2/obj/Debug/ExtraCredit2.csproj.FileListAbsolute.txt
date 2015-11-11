@@ -1,0 +1,6 @@
+C:\Users\misiriaj\ITDEV110\ExtraCredit2\ExtraCredit2\bin\Debug\ExtraCredit2.exe.config
+C:\Users\misiriaj\ITDEV110\ExtraCredit2\ExtraCredit2\obj\Debug\ExtraCredit2.csprojResolveAssemblyReference.cache
+C:\Users\misiriaj\ITDEV110\ExtraCredit2\ExtraCredit2\bin\Debug\ExtraCredit2.exe
+C:\Users\misiriaj\ITDEV110\ExtraCredit2\ExtraCredit2\bin\Debug\ExtraCredit2.pdb
+C:\Users\misiriaj\ITDEV110\ExtraCredit2\ExtraCredit2\obj\Debug\ExtraCredit2.exe
+C:\Users\misiriaj\ITDEV110\ExtraCredit2\ExtraCredit2\obj\Debug\ExtraCredit2.pdb
