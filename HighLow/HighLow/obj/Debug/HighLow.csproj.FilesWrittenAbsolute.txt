@@ -1,0 +1,5 @@
+/root/itdev110/HighLow/HighLow/bin/Debug/HighLow.exe.config
+/root/itdev110/HighLow/HighLow/bin/Debug/HighLow.exe.mdb
+/root/itdev110/HighLow/HighLow/bin/Debug/HighLow.exe
+/root/itdev110/HighLow/HighLow/obj/Debug/HighLow.exe
+/root/itdev110/HighLow/HighLow/obj/Debug/HighLow.exe.mdb
