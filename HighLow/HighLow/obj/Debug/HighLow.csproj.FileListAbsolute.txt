@@ -1,0 +1,8 @@
+C:\Users\misiriaj\ITDEV110\HighLow\HighLow\bin\Debug\HighLow.exe.config
+C:\Users\misiriaj\ITDEV110\HighLow\HighLow\obj\Debug\HighLow.exe
+C:\Users\misiriaj\ITDEV110\HighLow\HighLow\bin\Debug\HighLow.exe
+C:\Users\misiriaj\ITDEV110\HighLow\HighLow\bin\Debug\HighLow.pdb
+C:\Users\misiriaj\ITDEV110\HighLow\HighLow\bin\Debug\System.Net.Http.dll
+C:\Users\misiriaj\ITDEV110\HighLow\HighLow\bin\Debug\System.Net.Http.xml
+C:\Users\misiriaj\ITDEV110\HighLow\HighLow\obj\Debug\HighLow.csprojResolveAssemblyReference.cache
+C:\Users\misiriaj\ITDEV110\HighLow\HighLow\obj\Debug\HighLow.pdb

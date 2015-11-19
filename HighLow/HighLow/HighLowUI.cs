@@ -13,6 +13,30 @@ namespace HighLow
         private int tries { get; set; }
         private HighLow game { get; set; }
 
+        public static Difficulty PromptForDifficulty(params string[] args)
+        {
+            for (int x = 0; x < args.Length; x++)
+                Console.WriteLine(x + ". " + args[x]);
+            int choice = promptForInt("Difficulty: ");
+            if (choice >= args.Length)
+            {
+                Console.WriteLine("Enter a number between 0 and " + (args.Length - 1));
+                return PromptForDifficulty(args);
+            }
+
+            switch (choice)
+            {
+                case 0:
+                    return Difficulty.Easy;
+                case 1:
+                    return Difficulty.Medium;
+                case 2:
+                    return Difficulty.Hard;
+                default:
+                    throw new Exception("Something has gone horribly wrong!");
+            }
+        }
+
         public HighLowUI(int lowerBound, int upperBound)
         {
             this.lowerBound = lowerBound;
@@ -29,7 +53,7 @@ namespace HighLow
                 switch (game.CompareGuess(promptForInt("Enter a number between " + lowerBound + " and " + upperBound + ": ")))
                 {
                     case Comparison.Equal:
-                        Console.WriteLine("You won and it only took you " + tries + " tries! Play again? y/n ");
+                        Console.WriteLine("You won and it only took you " + ++tries + " tries! Play again? y/n ");
                         string choice = Console.ReadLine().ToLower();
                         if (choice == "y")
                             new HighLowUI(lowerBound, upperBound).Play();
@@ -48,7 +72,8 @@ namespace HighLow
                 tries++;
             }
         }
-        private int promptForInt(string prompt = "")
+
+        private static int promptForInt(string prompt = "")
         {
             Console.Write(prompt);
             int choice = 0;

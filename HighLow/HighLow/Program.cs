@@ -11,7 +11,21 @@ namespace HighLow
         static void Main(string[] args)
         {
             new Info("Assignment 7").DisplayInfo();
-            new HighLowUI(0, 100).Play();
+
+            int upperBound = 0;
+            switch (HighLowUI.PromptForDifficulty("Easy.", "Medium.", "Hard."))
+            {
+                case Difficulty.Easy:
+                    upperBound = 10;
+                    break;
+                case Difficulty.Medium:
+                    upperBound = 50;
+                    break;
+                case Difficulty.Hard:
+                    upperBound = 100;
+                    break;
+            }
+            new HighLowUI(0, upperBound).Play();
         }
     }
 }

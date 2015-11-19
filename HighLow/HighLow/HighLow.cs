@@ -14,6 +14,13 @@ namespace HighLow
         OutOfBounds
     }
 
+    public enum Difficulty
+    {
+        Easy,
+        Medium,
+        Hard
+    }
+
     public class HighLow
     {
         private int lowerBound { get; set; }
