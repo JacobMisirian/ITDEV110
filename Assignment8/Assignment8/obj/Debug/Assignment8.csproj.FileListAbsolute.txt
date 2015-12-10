@@ -1,0 +1,6 @@
+C:\Users\misiriaj\Assignment8\Assignment8\bin\Debug\Assignment8.exe.config
+C:\Users\misiriaj\Assignment8\Assignment8\obj\Debug\Assignment8.csprojResolveAssemblyReference.cache
+C:\Users\misiriaj\Assignment8\Assignment8\bin\Debug\Assignment8.exe
+C:\Users\misiriaj\Assignment8\Assignment8\bin\Debug\Assignment8.pdb
+C:\Users\misiriaj\Assignment8\Assignment8\obj\Debug\Assignment8.exe
+C:\Users\misiriaj\Assignment8\Assignment8\obj\Debug\Assignment8.pdb
